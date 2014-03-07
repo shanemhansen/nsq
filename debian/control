@@ -1,0 +1,16 @@
+Source: nsq
+Section: misc
+Priority: optional
+Maintainer: Matt Reiferson <mattr@bit.ly>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.3
+Vcs-Git: https://github.com/bitly/nsq
+Vcs-Browser: https://github.com/bitly/nsq
+
+Package: nsq
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: nsq - realtime distributed message processing at scale
+    https://github.com/bitly/nsq
+
+

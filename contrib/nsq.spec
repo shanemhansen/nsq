@@ -11,7 +11,7 @@ Version:    %{version}
 Release:    %{release}
 Group:      %{group}
 Packager:   Matt Reiferson <mattr@bit.ly>
-License:    Apache
+License:    MIT
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 AutoReqProv: no
 # we just assume you have go installed. You may or may not have an RPM to depend on.
